@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div id="display">0</div>
+      <div class="buttons">
+        <button onclick="erase()">AC</button>
+        <button onclick="prints('(')">(</button>
+        <button onclick="prints(')')">)</button>
+        <button onclick="deletes()">Del</button>
+
+        <button onclick="prints('7')">7</button>
+        <button onclick="prints('8')">8</button>
+        <button onclick="prints('9')">9</button>
+        <button onclick="prints('/')">/</button>
+
+        <button onclick="prints('4')">4</button>
+        <button onclick="prints('5')">5</button>
+        <button onclick="prints('6')">6</button>
+        <button onclick="prints('*')">*</button>
+
+        <button onclick="prints('1')">1</button>
+        <button onclick="prints('2')">2</button>
+        <button onclick="prints('3')">3</button>
+        <button onclick="prints('-')">-</button>
+
+        <button onclick="prints('0')">0</button>
+        <button onclick="prints('.')">.</button>
+        <button onclick="results()">=</button>
+        <button onclick="prints('+')">+</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
